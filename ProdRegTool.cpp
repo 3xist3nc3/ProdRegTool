@@ -1,8 +1,9 @@
 
-//  Product Registration Tool
-//
-
-
+/*
+*   Application Name: Product Registration Tool
+*   Version: 0.03
+*   Author: Ben Ormstad
+*/
 
 #include <ctime>
 #include <iostream>
@@ -53,8 +54,7 @@ const int NewProdSize = 10;
 const int NewListSize = 2;
 
 
-
-/* Save program state
+/* Save program state -- But HOW CAN IT ACTUALLY BE DONE??
 
 void SaveState()
 {
@@ -68,10 +68,7 @@ void SaveState()
 	file >> PPrice;
 	file >> Stock;
    	file >> TotalCost;
-   	
-	
 }; */
-
 
 void cIgnore()
 {
@@ -180,7 +177,6 @@ void CreateNewList()
 };
 
 
-
 // Do after having created a product list
 
 void PostListCreation()
@@ -263,7 +259,6 @@ void CreateNewProduct()
 		cout << "Price for all \"" << Prod[0].Title << "\" in stock: " << Prod[0].TotalCost() << endl << endl;
 		
 		PostProdCreation();
-			
 	}
 	
 	
@@ -301,7 +296,6 @@ void CreateNewProduct()
 		
 		
 		PostProdCreation();
-
 	}
 	
 	
@@ -338,7 +332,6 @@ void CreateNewProduct()
 		
 		
 		PostProdCreation();
-		
 	}
 
 
@@ -815,7 +808,7 @@ void CurrentTime()
 
 
 
-// Whudduya wanna do, hombré - view list, new prod, or update prod?
+// Whudduya wanna do, hombrÃ© - view list, new prod, or update prod?
 
 void MainMenu()
 {
