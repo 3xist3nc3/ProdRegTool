@@ -7,6 +7,7 @@ My vision for the Product Registration Tool - "ProdRegTool" - is that it should 
 
 This is my first "real" C++ project, and I will update it whenever I learn the next important thing that will improve the software.
 
+Feel free to take a look at the current working version of it here: https://github.com/3xist3nc3/ProdRegTool/blob/master/ProdRegTool%20%E2%80%93%20vrs.0.03.exe
 
 
-- Ben
+-- Ben
